@@ -1,0 +1,13 @@
+<%-include('partials/header2')-%>
+<main>
+    <h1>Welcome, <%=name.substring(0, name.length-10)%></h1>
+    <div class="stats">
+        <h2>Your Stats:</h2>
+        <ul>
+            <li>Time taken: <%=(time/60000).toFixed(2)%> minutes</li>
+            <li>Solution accuracy: <%=accuracy.toFixed(2)%>%</li>
+        </ul>
+    </div>
+    
+</main>
+<%-include('partials/footer')-%>

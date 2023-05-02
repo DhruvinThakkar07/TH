@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Treasure Hunt</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<main>
+    <h1>About Us</h1>
+    <%aboutContent.forEach(ele=>{%>
+        <p><%=ele%></p>
+    <%})%>
+</main>
+<%-include('partials/footer')-%>

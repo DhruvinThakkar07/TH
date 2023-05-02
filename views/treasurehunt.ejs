@@ -1,0 +1,19 @@
+<%-include('partials/header2')-%>
+<main>
+    <div class="treasure-hunt">
+      <h1>Treasure Hunt</h1>
+      <p>Answer the following question to proceed!</p>
+      <p><%=quesContent[quesNo]%></p>
+      <a href="<%=link%>"><%=link%></a>
+      <p><%=binary%></p>
+      <img src="<%=address%>" alt="">
+      <form action="/treasurehunt", method="post">
+        <div class="mb-3">
+          <label class="form-label" for="answer">Enter your answer:</label>
+        <input class="form-control" type="text" id="ans" name="answer" required>
+        </div>
+        <button class="btn btn-primary" type="submit">Submit</button>
+      </form>
+    </div>
+  </main>
+  <%-include('partials/footer')-%>
