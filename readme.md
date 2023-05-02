@@ -45,8 +45,12 @@ This project was created using the following technologies:
 # Stats page:
 ![stats](https://user-images.githubusercontent.com/122614867/235410480-ae2c807d-8c9f-4760-b364-b1e34e1077a7.png)
 
-
-
+# Answers to the questions (answers can be in uppercase or lowercase or also as an amalgamation of both)
+1. core
+2. 6
+3. fire
+4. httiasob
+5. boy, fish, hot, nice, tree, waves (any order will do)
 
 # Steps to set up the project:
 
